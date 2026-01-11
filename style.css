@@ -1,1 +1,50 @@
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f6f3;
+  color: #333;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.hero {
+  background: #e8ded1;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.date {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  border: none;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+}
+
+button {
+  background: #6b4f3f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
