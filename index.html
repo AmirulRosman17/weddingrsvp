@@ -1,1 +1,54 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invitation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Adam & Aisyah</h1>
+    <p>We are getting married</p>
+    <p class="date">15 June 2026</p>
+    <div id="countdown"></div>
+  </section>
+
+  <!-- EVENT DETAILS -->
+  <section class="details">
+    <h2>Wedding Details</h2>
+    <p><strong>Nikah:</strong> 10:00 AM</p>
+    <p><strong>Reception:</strong> 12:00 PM – 4:00 PM</p>
+    <p><strong>Venue:</strong> Dewan Seri Melati</p>
+  </section>
+
+  <!-- MAP -->
+  <section class="map">
+    <h2>Location</h2>
+    <iframe 
+      src="https://www.google.com/maps?q=Dewan%20Seri%20Melati&output=embed"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- RSVP -->
+  <section class="rsvp">
+    <h2>RSVP</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <select required>
+        <option value="">Will you attend?</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+      <input type="number" placeholder="Number of Pax" min="1" />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
