@@ -1,6 +1,6 @@
 
 // COUNTDOWN
-const weddingDate = new Date("June 15, 2026 10:00:00").getTime();
+const weddingDate = new Date("July 11, 2026 12:00:00").getTime();
 const countdownEl = document.getElementById("countdown");
 
 setInterval(() => {
